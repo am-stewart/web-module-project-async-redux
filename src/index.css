@@ -1,4 +1,6 @@
 
 body {
-	background: #f5f5f5;
+	background-image: url('./design/sean-sinclair-gai1YB3UmDA-unsplash.jpg');
+	background-size: cover;
+	background-position: center;
 }

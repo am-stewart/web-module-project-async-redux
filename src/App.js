@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="title">
-        <h1>🎶  Quotes for the Swifites 🎶 </h1>
+        <h1><span className="emoji">🎵</span> Quotes for the Swifites <span className="emoji">🎵</span></h1>
       </div>
       <div className="quote-box">
         <Quote/>

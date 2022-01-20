@@ -24,11 +24,11 @@ const Quote = ({ quote, isFetching, error, dispatch }) => {
 
   return (
     <div>
-      <div>
-        <h3>{quote.quote}</h3>
-        <h5>Song: {quote.song}</h5>
-        <h5>Album: {quote.album}</h5>
-        <h6>-Taylor Swift</h6>
+      <div className="quote">
+        <h2>{quote.quote}</h2>
+        <h5>-Taylor Swift</h5>
+        <p>Song: {quote.song} / Album: {quote.album}</p>
+        {/* <p className="album">Album: {quote.album}</p> */}
       </div>
       <button onClick={handleClick}>Get New Quote</button>
     </div>
